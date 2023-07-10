@@ -1,0 +1,5 @@
+---
+services:
+  nest-example:
+    build: .
+    network_mode: host
