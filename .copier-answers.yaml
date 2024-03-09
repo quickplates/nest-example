@@ -1,0 +1,15 @@
+# Changes here will be overwritten by Copier; NEVER EDIT MANUALLY
+_commit: 7e5bfde
+_src_path: ./
+accountname: quickplates
+appname: nest-example
+description: NestJS app example 🐈
+docs: true
+docsurl: https://quickplates.github.io/nest-example
+envprefix: NEST_EXAMPLE
+imagename: apps/nest-example
+port: 3000
+registry: true
+releases: true
+reponame: nest-example
+repourl: https://github.com/quickplates/nest-example
