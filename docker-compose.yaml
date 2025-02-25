@@ -1,0 +1,9 @@
+services:
+  nest-example:
+    build:
+      context: ./
+      network: host
+    environment:
+      - "NEST_EXAMPLE__SERVER__HOST=${NEST_EXAMPLE__SERVER__HOST:-0.0.0.0}"
+      - "NEST_EXAMPLE__SERVER__PORT=${NEST_EXAMPLE__SERVER__PORT:-3000}"
+    network_mode: host
